@@ -1,0 +1,25 @@
+{
+  "name": "javascript-template",
+  "version": "1.0.0",
+  "description": "JavaScript template configured with formatting, listing and tests.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-suarez/JavaScript-template.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Template",
+    "ESM"
+  ],
+  "author": "Sebastian Suarez <6.oceanic-curlers@icloud.com> (https://www.sebastiansuarez.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastian-suarez/JavaScript-template/issues"
+  },
+  "homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme"
+}
