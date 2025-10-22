@@ -2,10 +2,13 @@
   "name": "javascript-template",
   "version": "1.0.0",
   "description": "JavaScript template configured with formatting, listing and tests.",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node .",
+    "start": "node src",
     "test": "ava"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
