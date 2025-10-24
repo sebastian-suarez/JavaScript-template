@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "JavaScript template configured with formatting, listing and tests.",
   "type": "module",
+  "imports": {
+    "#src/*": "./src/*"
+  },
   "scripts": {
-    "start": "node src",
-    "test": "ava"
+    "start": "nodemon src",
+    "test": "xo && ava"
   },
   "engines": {
     "node": ">=18"
@@ -24,5 +27,13 @@
   "bugs": {
     "url": "https://github.com/sebastian-suarez/JavaScript-template/issues"
   },
-  "homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme"
+  "homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "3.6.2",
+    "xo": "^1.2.3"
+  },
+  "xo": {
+    "prettier": true
+  }
 }
