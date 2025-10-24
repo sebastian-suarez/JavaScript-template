@@ -1,7 +1,7 @@
 {
 	"name": "javascript-template",
 	"version": "1.0.0",
-	"description": "JavaScript template configured with formatting, listing and tests.",
+	"description": "Node.js ESM starter with Prettier, XO, AVA, Husky, and lint-staged preconfigured.",
 	"type": "module",
 	"imports": {
 		"#src/*": "./src/*"
@@ -19,9 +19,14 @@
 		"url": "git+https://github.com/sebastian-suarez/JavaScript-template.git"
 	},
 	"keywords": [
-		"JavaScript",
-		"Template",
-		"ESM"
+		"nodejs",
+		"template",
+		"esm",
+		"prettier",
+		"xo",
+		"ava",
+		"husky",
+		"lint-staged"
 	],
 	"author": "Sebastian Suarez <6.oceanic-curlers@icloud.com> (https://www.sebastiansuarez.dev)",
 	"license": "MIT",
