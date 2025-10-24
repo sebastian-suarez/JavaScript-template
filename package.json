@@ -30,6 +30,7 @@
 	},
 	"homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme",
 	"devDependencies": {
+		"ava": "^6.4.1",
 		"husky": "^9.1.7",
 		"lint-staged": "^16.2.6",
 		"nodemon": "^3.1.10",
