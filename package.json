@@ -1,39 +1,49 @@
 {
-  "name": "javascript-template",
-  "version": "1.0.0",
-  "description": "JavaScript template configured with formatting, listing and tests.",
-  "type": "module",
-  "imports": {
-    "#src/*": "./src/*"
-  },
-  "scripts": {
-    "start": "nodemon src",
-    "test": "xo && ava"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sebastian-suarez/JavaScript-template.git"
-  },
-  "keywords": [
-    "JavaScript",
-    "Template",
-    "ESM"
-  ],
-  "author": "Sebastian Suarez <6.oceanic-curlers@icloud.com> (https://www.sebastiansuarez.dev)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sebastian-suarez/JavaScript-template/issues"
-  },
-  "homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.10",
-    "prettier": "3.6.2",
-    "xo": "^1.2.3"
-  },
-  "xo": {
-    "prettier": true
-  }
+	"name": "javascript-template",
+	"version": "1.0.0",
+	"description": "JavaScript template configured with formatting, listing and tests.",
+	"type": "module",
+	"imports": {
+		"#src/*": "./src/*"
+	},
+	"scripts": {
+		"start": "nodemon src",
+		"test": "ava",
+		"prepare": "husky"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/sebastian-suarez/JavaScript-template.git"
+	},
+	"keywords": [
+		"JavaScript",
+		"Template",
+		"ESM"
+	],
+	"author": "Sebastian Suarez <6.oceanic-curlers@icloud.com> (https://www.sebastiansuarez.dev)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/sebastian-suarez/JavaScript-template/issues"
+	},
+	"homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme",
+	"devDependencies": {
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.6",
+		"nodemon": "^3.1.10",
+		"prettier": "3.6.2",
+		"xo": "^1.2.3"
+	},
+	"lint-staged": {
+		"*.{js,cjs,mjs}": [
+			"xo --fix",
+			"prettier --write"
+		],
+		"*.{json,md}": "prettier --write"
+	},
+	"xo": {
+		"prettier": true
+	}
 }
