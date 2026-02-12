@@ -1,0 +1,24 @@
+{
+  "name": "javascript-template",
+  "version": "1.0.0",
+  "description": "JavaScript template",
+  "keywords": [
+    "JavaScript",
+    "Template"
+  ],
+  "homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme",
+  "bugs": {
+    "url": "https://github.com/sebastian-suarez/JavaScript-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-suarez/JavaScript-template.git"
+  },
+  "license": "MIT",
+  "author": "Sebastian Suarez <261091557+sebastian-suarez@users.noreply.github.com> (https://www.sebastiansuarez.dev)",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
