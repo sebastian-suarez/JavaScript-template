@@ -1,2 +1,3 @@
 # JavaScript-template
+
 JavaScript template
