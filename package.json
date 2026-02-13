@@ -1,10 +1,18 @@
 {
 	"name": "javascript-template",
 	"version": "1.0.0",
-	"description": "JavaScript template",
+	"description": "Starter Node.js JavaScript template with ESM, import aliases, Jest, XO, Prettier, and Husky.",
 	"keywords": [
-		"JavaScript",
-		"Template"
+		"javascript",
+		"nodejs",
+		"template",
+		"starter",
+		"esm",
+		"import-alias",
+		"jest",
+		"xo",
+		"prettier",
+		"husky"
 	],
 	"homepage": "https://github.com/sebastian-suarez/JavaScript-template#readme",
 	"bugs": {
